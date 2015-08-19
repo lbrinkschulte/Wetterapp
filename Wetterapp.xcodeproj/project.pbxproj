@@ -13,6 +13,7 @@
 		AF674E7D1B83531A00CC6CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF674E7C1B83531A00CC6CA3 /* Assets.xcassets */; };
 		AF674E801B83531A00CC6CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF674E7E1B83531A00CC6CA3 /* LaunchScreen.storyboard */; };
 		AF674E891B8355A400CC6CA3 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF674E881B8355A400CC6CA3 /* CityTableViewController.m */; };
+		AF674E8C1B835F5500CC6CA3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF674E8B1B835F5500CC6CA3 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AF674E811B83531A00CC6CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF674E871B8355A400CC6CA3 /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityTableViewController.h; path = ../CityTableViewController.h; sourceTree = "<group>"; };
 		AF674E881B8355A400CC6CA3 /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityTableViewController.m; path = ../CityTableViewController.m; sourceTree = "<group>"; };
+		AF674E8A1B835F5500CC6CA3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		AF674E8B1B835F5500CC6CA3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		AF674E6F1B83531A00CC6CA3 /* Wetterapp */ = {
 			isa = PBXGroup;
 			children = (
+				AF674E8A1B835F5500CC6CA3 /* DetailViewController.h */,
+				AF674E8B1B835F5500CC6CA3 /* DetailViewController.m */,
 				AF674E871B8355A400CC6CA3 /* CityTableViewController.h */,
 				AF674E881B8355A400CC6CA3 /* CityTableViewController.m */,
 				AF674E731B83531A00CC6CA3 /* AppDelegate.h */,
@@ -152,6 +157,7 @@
 				AF674E891B8355A400CC6CA3 /* CityTableViewController.m in Sources */,
 				AF674E751B83531A00CC6CA3 /* AppDelegate.m in Sources */,
 				AF674E721B83531A00CC6CA3 /* main.m in Sources */,
+				AF674E8C1B835F5500CC6CA3 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
