@@ -14,6 +14,9 @@
 		AF674E801B83531A00CC6CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF674E7E1B83531A00CC6CA3 /* LaunchScreen.storyboard */; };
 		AF674E891B8355A400CC6CA3 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF674E881B8355A400CC6CA3 /* CityTableViewController.m */; };
 		AF674E8C1B835F5500CC6CA3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF674E8B1B835F5500CC6CA3 /* DetailViewController.m */; };
+		AF9086D21B84718200EB44CD /* URLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9086D11B84718200EB44CD /* URLReader.m */; };
+		AF9086D51B84752300EB44CD /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9086D41B84752300EB44CD /* City.m */; };
+		AF9086D81B84A2CE00EB44CD /* CityDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9086D71B84A2CE00EB44CD /* CityDatabase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,13 @@
 		AF674E881B8355A400CC6CA3 /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityTableViewController.m; path = ../CityTableViewController.m; sourceTree = "<group>"; };
 		AF674E8A1B835F5500CC6CA3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
 		AF674E8B1B835F5500CC6CA3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		AF7CDC2B1B84B27F003F270A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = Wetterapp/MyPlayground.playground; sourceTree = "<group>"; };
+		AF9086D01B84718200EB44CD /* URLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLReader.h; sourceTree = "<group>"; };
+		AF9086D11B84718200EB44CD /* URLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLReader.m; sourceTree = "<group>"; };
+		AF9086D31B84752300EB44CD /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		AF9086D41B84752300EB44CD /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		AF9086D61B84A2CE00EB44CD /* CityDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDatabase.h; sourceTree = "<group>"; };
+		AF9086D71B84A2CE00EB44CD /* CityDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDatabase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 		AF674E641B83531A00CC6CA3 = {
 			isa = PBXGroup;
 			children = (
+				AF7CDC2B1B84B27F003F270A /* MyPlayground.playground */,
 				AF674E6F1B83531A00CC6CA3 /* Wetterapp */,
 				AF674E6E1B83531A00CC6CA3 /* Products */,
 			);
@@ -65,6 +76,10 @@
 				AF674E8B1B835F5500CC6CA3 /* DetailViewController.m */,
 				AF674E871B8355A400CC6CA3 /* CityTableViewController.h */,
 				AF674E881B8355A400CC6CA3 /* CityTableViewController.m */,
+				AF9086D31B84752300EB44CD /* City.h */,
+				AF9086D41B84752300EB44CD /* City.m */,
+				AF9086D61B84A2CE00EB44CD /* CityDatabase.h */,
+				AF9086D71B84A2CE00EB44CD /* CityDatabase.m */,
 				AF674E731B83531A00CC6CA3 /* AppDelegate.h */,
 				AF674E741B83531A00CC6CA3 /* AppDelegate.m */,
 				AF674E791B83531A00CC6CA3 /* Main.storyboard */,
@@ -80,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				AF674E711B83531A00CC6CA3 /* main.m */,
+				AF9086D01B84718200EB44CD /* URLReader.h */,
+				AF9086D11B84718200EB44CD /* URLReader.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,7 +173,10 @@
 			files = (
 				AF674E891B8355A400CC6CA3 /* CityTableViewController.m in Sources */,
 				AF674E751B83531A00CC6CA3 /* AppDelegate.m in Sources */,
+				AF9086D51B84752300EB44CD /* City.m in Sources */,
+				AF9086D21B84718200EB44CD /* URLReader.m in Sources */,
 				AF674E721B83531A00CC6CA3 /* main.m in Sources */,
+				AF9086D81B84A2CE00EB44CD /* CityDatabase.m in Sources */,
 				AF674E8C1B835F5500CC6CA3 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +324,7 @@
 				AF674E861B83531A00CC6CA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,8 +6,9 @@
 //  Copyright © 2015 Brimanke AG. All rights reserved.
 //
 
-#import "AppDelegate.h"
 
+#import "AppDelegate.h"
+#import "CityDatabase.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[CityDatabase sharedInstance] load];
     return YES;
 }
 
@@ -26,6 +28,7 @@
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
+    [[CityDatabase sharedInstance] save];
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }

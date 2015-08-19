@@ -52,7 +52,9 @@
                             <outlet property="delegate" destination="Cq7-OM-OLG" id="2Pg-SI-mIr"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Mhf-Fn-TuS"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="Mhf-Fn-TuS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="5i9-eP-rZS"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="deD-Oh-GA8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,13 +158,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUU-Yx-Sd4">
-                                <rect key="frame" x="237" y="101" width="343" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7C5-r7-cP7">
                                 <rect key="frame" x="237" y="161" width="343" height="21"/>
                                 <animations/>
@@ -217,6 +212,13 @@
                                     <constraint firstAttribute="bottom" secondItem="siF-pu-3wT" secondAttribute="bottom" id="pj0-VL-qub"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUU-Yx-Sd4">
+                                <rect key="frame" x="237" y="101" width="343" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.87548491379310334" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -274,6 +276,15 @@
                             <constraint firstItem="8Dh-7Y-wOD" firstAttribute="leading" secondItem="lk4-Na-65Q" secondAttribute="leading" id="xs6-kt-9Me"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="humidityLabel" destination="z9F-Wi-ibF" id="qla-Zz-2B5"/>
+                        <outlet property="latitudeLabel" destination="roi-Ig-pOg" id="P8h-HH-lko"/>
+                        <outlet property="longitudeLabel" destination="0ly-Qt-pBy" id="OII-yt-1DC"/>
+                        <outlet property="nameLabel" destination="HEq-Ps-nhs" id="o9W-To-qzk"/>
+                        <outlet property="tempLabel" destination="cUU-Yx-Sd4" id="cPa-Ik-rgh"/>
+                        <outlet property="windDirectionLabel" destination="7C5-r7-cP7" id="0pk-pW-Pam"/>
+                        <outlet property="windSpeedLabel" destination="b3N-mZ-HP0" id="nwt-1z-FpZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tkW-dB-Cxm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

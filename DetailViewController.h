@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailViewController : UIViewController
+
 -(void)setDetail:(NSString *)detail;
 
 @end
