@@ -4,7 +4,7 @@
 //
 //  Created by iOS Schulung on 18.08.15.
 //  Copyright © 2015 Brimanke AG. All rights reserved.
-//
+//  + Arkadij
 
 #import "CityTableViewController.h"
 #import "DetailViewController.h"
